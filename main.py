@@ -16,8 +16,8 @@ with open('phoneCalls.csv', 'r') as fin:
 			dane.append(row[0])
 
 
-def najwiecej_polaczen(self):
+def pobierz_najczesciej_dzwoniacego(self):
 	return max(((int(dane), numbers.count(dane)) for dane in set(dane)), key = lambda x: x[1])		
 
 if __name__ == "__main__":
-print(Polaczenia(input()).pobierz_najczesciej_dzwoniacego())
+print(wczytaj(input()).pobierz_najczesciej_dzwoniacego())
