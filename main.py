@@ -10,7 +10,7 @@ with open('phoneCalls.csv', 'r') as fin:
 
 	for row in reader:
 		from_subsr =int(row[0])
-		if from_subsr == 0
+		if from_subsr == 0:
 			from_subsr += 1
 		else:
 			dane.append(row[0])
