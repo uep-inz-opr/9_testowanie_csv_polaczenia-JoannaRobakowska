@@ -18,5 +18,5 @@ with open('phoneCalls.csv', 'r') as fin:
 def pobierz_najczesciej_dzwoniacego(self):
     return max(self.data_dict.items(), key= lambda x: x[1])	
 
-if __name__ == "__main__":
-print(wczytaj(input()).pobierz_najczesciej_dzwoniacego())
+	if __name__ == "__main__":
+		print(wczytaj(input()).pobierz_najczesciej_dzwoniacego())
